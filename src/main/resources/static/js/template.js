@@ -1,0 +1,1 @@
+alert("Javascript file with Thymeleaf");
