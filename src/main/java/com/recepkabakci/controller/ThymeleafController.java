@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
@@ -88,6 +89,26 @@ public class ThymeleafController {
             model.addAttribute("key_model", "Can not find the id.");
         }
         return "thymeleaf7";
+    }
+    //@RequestParam
+    //http://localhost:8080/thymeleaf8
+    //http://localhost:8080/thymeleaf8?id=4
+    //http://localhost:8080/thymeleaf8?id=4&name=RecepKabakci
+    @GetMapping("thymeleaf8")
+    public String thymeleafObjectRequestParam(Model model, @RequestParam(name = "id",required = false,defaultValue = "0")Long id,
+                                              @RequestParam(name = "name")String name) {
+        if(id!=null) {
+            model.addAttribute("key_model", "called id : " + id+" fullName: "+name);
+        }
+        /*else if (id == 0) {
+            model.addAttribute("key_model", "Default value.");
+        }
+        */
+
+        else{
+            model.addAttribute("key_model", "Can not find the id.");
+        }
+        return "thymeleaf8";
     }
 
 
