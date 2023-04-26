@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf4 Example</title>
+
+    <link rel="stylesheet" href="@{/css/style.css}">
+    <script src="@{/js/template.js}"></script>
+</head>
+<body>
+<h1 class="text-center text-primary">Hello, Thymeleaf4 !</h1>
+<h2 th:text="'thymeleaf4'"></h2>
+<hr>
+<p th:text="${key_model}"></p>
+<hr>
+<form action="">
+    <div class="form-group">
+        <label th:text="#{nameandsurname}" for="name_surname"></label>
+        <input type="text" class="form-control" placeholder="FullName" name="name_surname" id="name_surname"  autofocus required>
+        <button class="btn btn-primary mt-3">Submit</button>
+    </div>
+</form>
+
+</body>
+</html>
