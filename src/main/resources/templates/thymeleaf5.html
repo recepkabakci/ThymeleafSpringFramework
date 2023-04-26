@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf5 Example</title>
+
+    <link rel="stylesheet" href="@{/css/style.css}">
+    <script src="@{/js/template.js}"></script>
+</head>
+<body class="container">
+<h1 class="text-center text-primary">Hello, Thymeleaf4 !</h1>
+<h2 th:text="'thymeleaf5'"></h2>
+<hr>
+<p th:text="${key_model}"></p>
+<p th:text="${key_model2}"></p>
+<hr>
+
+
+</body>
+</html>
