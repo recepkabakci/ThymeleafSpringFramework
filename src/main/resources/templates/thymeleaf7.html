@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf7 Example</title>
+
+    <link rel="stylesheet" href="@{/css/style.css}">
+    <script src="@{/js/template.js}"></script>
+</head>
+<body class="container" bg-dark>
+<h1 class="text-center text-primary">Hello, @PathVariable !</h1>
+<h2 th:text="'thymeleaf7'"></h2>
+<hr>
+<p th:text="${key_model}"></p>
+<hr>
+
+</body>
+</html>
