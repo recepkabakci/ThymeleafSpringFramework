@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf6 Example</title>
+
+    <link rel="stylesheet" href="@{/css/style.css}">
+    <script src="@{/js/template.js}"></script>
+</head>
+<body class="container" bg-dark>
+<h1 class="text-center text-primary">Hello, Thymeleaf4 !</h1>
+<h2 th:text="'thymeleaf6'"></h2>
+<hr>
+<p th:text="${key_model}"></p>
+<hr>
+<p th:text="${productList}"></p>
+<hr>
+<table class="table table-striped table-hover">
+    <tr th:each="product : ${productList}">
+        <td th:text="${product.productId}"></td>
+        <td th:text="${product.productName}"></td>
+        <td th:text="${product.productPrice}"></td>
+    </tr>
+</table>
+</body>
+</html>
