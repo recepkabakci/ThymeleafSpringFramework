@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf8 Example</title>
+
+    <link rel="stylesheet" href="@{/css/style.css}">
+    <script src="@{/js/template.js}"></script>
+</head>
+<body class="container" bg-dark>
+<h1 class="text-center text-primary">Hello, @RequestParam !</h1>
+<h2 th:text="'thymeleaf8'"></h2>
+<hr>
+<p th:text="${key_model}"></p>
+<hr>
+
+</body>
+</html>
