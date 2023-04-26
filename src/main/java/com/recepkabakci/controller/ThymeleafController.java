@@ -31,5 +31,13 @@ public class ThymeleafController {
         return "thymeleaf_file/thymeleaf3";
     }
 
+    //http://localhost:8080/thymeleaf4
+    @GetMapping("/thymeleaf4")
+    public String thymeleaf4(Model model){
+        model.addAttribute("key_model","I am Model -Thymeleaf4.");
+
+        return "thymeleaf4";
+    }
+
 
 }
