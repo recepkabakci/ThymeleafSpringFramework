@@ -1,187 +1,80 @@
-2023-04-26T12:40:51.940+02:00  INFO 10976 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 10976 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:40:51.987+02:00  INFO 10976 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:40:54.383+02:00  INFO 10976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:40:54.469+02:00  INFO 10976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:40:54.470+02:00  INFO 10976 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:40:54.774+02:00  INFO 10976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:40:54.775+02:00  INFO 10976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2612 ms
-2023-04-26T12:40:54.996+02:00  INFO 10976 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:40:55.722+02:00  INFO 10976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:40:55.740+02:00  INFO 10976 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.869 seconds (process running for 5.511)
-2023-04-26T12:41:03.081+02:00  INFO 10976 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:41:03.083+02:00  INFO 10976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:41:03.087+02:00  INFO 10976 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2023-04-26T12:41:48.671+02:00  INFO 244 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 244 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:41:48.677+02:00  INFO 244 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:41:51.371+02:00  INFO 244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:41:51.389+02:00  INFO 244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:41:51.390+02:00  INFO 244 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:41:51.722+02:00  INFO 244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:41:51.725+02:00  INFO 244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2838 ms
-2023-04-26T12:41:52.079+02:00  INFO 244 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:41:52.862+02:00  INFO 244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:41:52.878+02:00  INFO 244 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.248 seconds (process running for 5.976)
-2023-04-26T12:41:55.275+02:00  INFO 244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:41:55.276+02:00  INFO 244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:41:55.279+02:00  INFO 244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-04-26T12:44:13.868+02:00  INFO 13488 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13488 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:44:13.879+02:00  INFO 13488 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:44:17.134+02:00  INFO 13488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:44:17.173+02:00  INFO 13488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:44:17.174+02:00  INFO 13488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:44:17.455+02:00  INFO 13488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:44:17.457+02:00  INFO 13488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3423 ms
-2023-04-26T12:44:17.739+02:00  INFO 13488 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:44:18.435+02:00  INFO 13488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:44:18.455+02:00  INFO 13488 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.71 seconds (process running for 6.343)
-2023-04-26T12:44:45.765+02:00  INFO 1672 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 1672 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:44:45.772+02:00  INFO 1672 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:44:48.497+02:00  INFO 1672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:44:48.526+02:00  INFO 1672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:44:48.527+02:00  INFO 1672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:44:48.800+02:00  INFO 1672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:44:48.801+02:00  INFO 1672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2863 ms
-2023-04-26T12:44:49.269+02:00  INFO 1672 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:44:50.371+02:00  INFO 1672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:44:50.390+02:00  INFO 1672 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.824 seconds (process running for 7.091)
-2023-04-26T12:44:58.441+02:00  INFO 1672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:44:58.443+02:00  INFO 1672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:44:58.445+02:00  INFO 1672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T12:46:22.872+02:00  INFO 7552 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 7552 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:46:22.882+02:00  INFO 7552 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:46:25.536+02:00  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:46:25.556+02:00  INFO 7552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:46:25.557+02:00  INFO 7552 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:46:25.899+02:00  INFO 7552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:46:25.900+02:00  INFO 7552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2904 ms
-2023-04-26T12:46:26.240+02:00  INFO 7552 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:46:27.009+02:00  INFO 7552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:46:27.026+02:00  INFO 7552 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.192 seconds (process running for 5.831)
-2023-04-26T12:46:34.306+02:00  INFO 7552 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:46:34.308+02:00  INFO 7552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:46:34.310+02:00  INFO 7552 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-04-26T12:47:13.398+02:00  INFO 13804 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13804 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:47:13.410+02:00  INFO 13804 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:47:16.648+02:00  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:47:16.671+02:00  INFO 13804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:47:16.672+02:00  INFO 13804 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:47:16.928+02:00  INFO 13804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:47:16.929+02:00  INFO 13804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3248 ms
-2023-04-26T12:47:17.229+02:00  INFO 13804 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:47:18.062+02:00  INFO 13804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:47:18.083+02:00  INFO 13804 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.055 seconds (process running for 7.002)
-2023-04-26T12:47:20.851+02:00  INFO 13804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:47:20.853+02:00  INFO 13804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:47:20.855+02:00  INFO 13804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-04-26T12:49:10.055+02:00  INFO 12936 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 12936 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:49:10.066+02:00  INFO 12936 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:49:13.107+02:00  INFO 12936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:49:13.147+02:00  INFO 12936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:49:13.148+02:00  INFO 12936 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:49:13.720+02:00  INFO 12936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:49:13.722+02:00  INFO 12936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3363 ms
-2023-04-26T12:49:14.395+02:00  INFO 12936 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:49:15.290+02:00  INFO 12936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:49:15.324+02:00  INFO 12936 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.709 seconds (process running for 7.708)
-2023-04-26T12:49:15.975+02:00  INFO 12936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:49:15.978+02:00  INFO 12936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:49:15.982+02:00  INFO 12936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-04-26T12:50:18.116+02:00  INFO 10412 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 10412 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:50:18.125+02:00  INFO 10412 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:50:20.603+02:00  INFO 10412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:50:20.628+02:00  INFO 10412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:50:20.629+02:00  INFO 10412 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:50:20.876+02:00  INFO 10412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:50:20.877+02:00  INFO 10412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2585 ms
-2023-04-26T12:50:21.155+02:00  INFO 10412 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:50:22.055+02:00  INFO 10412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:50:22.076+02:00  INFO 10412 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.365 seconds (process running for 6.172)
-2023-04-26T12:50:25.026+02:00  INFO 10412 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:50:25.028+02:00  INFO 10412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:50:25.035+02:00  INFO 10412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2023-04-26T12:51:45.342+02:00  INFO 13516 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13516 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T12:51:45.353+02:00  INFO 13516 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T12:51:48.243+02:00  INFO 13516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T12:51:48.274+02:00  INFO 13516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T12:51:48.275+02:00  INFO 13516 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T12:51:48.468+02:00  INFO 13516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T12:51:48.470+02:00  INFO 13516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2976 ms
-2023-04-26T12:51:48.791+02:00  INFO 13516 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T12:51:49.589+02:00  INFO 13516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T12:51:49.606+02:00  INFO 13516 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.32 seconds (process running for 5.927)
-2023-04-26T12:51:54.751+02:00  INFO 13516 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T12:51:54.752+02:00  INFO 13516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T12:51:54.755+02:00  INFO 13516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:11:24.334+02:00  INFO 768 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 768 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:11:24.341+02:00  INFO 768 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:11:26.905+02:00  INFO 768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:11:26.932+02:00  INFO 768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:11:26.932+02:00  INFO 768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:11:27.230+02:00  INFO 768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:11:27.239+02:00  INFO 768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2756 ms
-2023-04-26T13:11:27.497+02:00  INFO 768 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:11:28.224+02:00  INFO 768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:11:28.247+02:00  INFO 768 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.106 seconds (process running for 5.711)
-2023-04-26T13:11:54.788+02:00  INFO 768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:11:54.789+02:00  INFO 768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:11:54.792+02:00  INFO 768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:13:06.202+02:00  INFO 13300 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13300 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:13:06.217+02:00  INFO 13300 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:13:09.762+02:00  INFO 13300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:13:09.785+02:00  INFO 13300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:13:09.786+02:00  INFO 13300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:13:10.030+02:00  INFO 13300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:13:10.031+02:00  INFO 13300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3664 ms
-2023-04-26T13:13:10.246+02:00  INFO 13300 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:13:11.076+02:00  INFO 13300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:13:11.103+02:00  INFO 13300 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.95 seconds (process running for 6.758)
-2023-04-26T13:13:17.536+02:00  INFO 13300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:13:17.538+02:00  INFO 13300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:13:17.540+02:00  INFO 13300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:19:07.739+02:00  INFO 13516 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13516 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:19:07.746+02:00  INFO 13516 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:19:10.447+02:00  INFO 13516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:19:10.479+02:00  INFO 13516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:19:10.480+02:00  INFO 13516 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:19:11.379+02:00  INFO 13516 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:19:11.381+02:00  INFO 13516 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3504 ms
-2023-04-26T13:19:11.685+02:00  INFO 13516 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:19:12.586+02:00  INFO 13516 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:19:12.608+02:00  INFO 13516 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.129 seconds (process running for 6.77)
-2023-04-26T13:19:20.885+02:00  INFO 13516 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:19:20.888+02:00  INFO 13516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:19:20.891+02:00  INFO 13516 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:21:14.740+02:00  INFO 12228 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 12228 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:21:14.747+02:00  INFO 12228 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:21:17.351+02:00  INFO 12228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:21:17.410+02:00  INFO 12228 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:21:17.412+02:00  INFO 12228 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:21:17.814+02:00  INFO 12228 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:21:17.815+02:00  INFO 12228 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2928 ms
-2023-04-26T13:21:18.177+02:00  INFO 12228 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:21:19.599+02:00  INFO 12228 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:21:19.618+02:00  INFO 12228 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.852 seconds (process running for 6.504)
-2023-04-26T13:21:35.627+02:00  INFO 12228 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:21:35.628+02:00  INFO 12228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:21:35.631+02:00  INFO 12228 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:26:54.950+02:00  INFO 9920 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 9920 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:26:54.958+02:00  INFO 9920 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:26:57.396+02:00  INFO 9920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:26:57.420+02:00  INFO 9920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:26:57.421+02:00  INFO 9920 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:26:57.645+02:00  INFO 9920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:26:57.646+02:00  INFO 9920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2577 ms
-2023-04-26T13:26:57.903+02:00  INFO 9920 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:26:58.668+02:00  INFO 9920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:26:58.695+02:00  INFO 9920 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.849 seconds (process running for 5.534)
-2023-04-26T13:27:08.857+02:00  INFO 9920 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:27:08.859+02:00  INFO 9920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:27:08.861+02:00  INFO 9920 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:27:09.549+02:00 ERROR 9920 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "thymeleaf6": Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)
+2023-04-28T12:38:56.613+02:00  INFO 12204 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 12204 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T12:38:56.706+02:00  INFO 12204 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T12:39:00.104+02:00  INFO 12204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T12:39:00.129+02:00  INFO 12204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T12:39:00.131+02:00  INFO 12204 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T12:39:00.656+02:00  INFO 12204 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T12:39:00.657+02:00  INFO 12204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3720 ms
+2023-04-28T12:39:00.981+02:00  INFO 12204 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T12:39:01.398+02:00  INFO 12204 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T12:39:01.823+02:00  INFO 12204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T12:39:01.842+02:00  INFO 12204 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.883 seconds (process running for 9.125)
+2023-04-28T12:54:40.330+02:00  INFO 15244 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 15244 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T12:54:40.342+02:00  INFO 15244 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T12:54:42.945+02:00  INFO 15244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T12:54:42.968+02:00  INFO 15244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T12:54:42.969+02:00  INFO 15244 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T12:54:43.241+02:00  INFO 15244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T12:54:43.243+02:00  INFO 15244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2750 ms
+2023-04-28T12:54:43.523+02:00  INFO 15244 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T12:54:43.952+02:00  INFO 15244 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T12:54:44.468+02:00  INFO 15244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T12:54:44.501+02:00  INFO 15244 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.674 seconds (process running for 6.56)
+2023-04-28T12:54:48.717+02:00  INFO 15244 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T12:54:48.720+02:00  INFO 15244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T12:54:48.733+02:00  INFO 15244 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2023-04-28T12:57:37.719+02:00  INFO 9552 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 9552 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T12:57:37.731+02:00  INFO 9552 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T12:57:41.081+02:00  INFO 9552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T12:57:41.106+02:00  INFO 9552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T12:57:41.106+02:00  INFO 9552 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T12:57:41.470+02:00  INFO 9552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T12:57:41.471+02:00  INFO 9552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3529 ms
+2023-04-28T12:57:41.731+02:00  INFO 9552 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T12:57:42.232+02:00  INFO 9552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T12:57:42.666+02:00  INFO 9552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T12:57:42.686+02:00  INFO 9552 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.053 seconds (process running for 7.196)
+2023-04-28T14:19:27.583+02:00  INFO 2780 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 2780 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:19:27.592+02:00  INFO 2780 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:19:30.197+02:00  INFO 2780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:19:30.223+02:00  INFO 2780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:19:30.223+02:00  INFO 2780 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:19:30.492+02:00  INFO 2780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:19:30.494+02:00  INFO 2780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2694 ms
+2023-04-28T14:19:30.773+02:00  INFO 2780 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:19:31.194+02:00  INFO 2780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:19:31.654+02:00  INFO 2780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:19:31.672+02:00  INFO 2780 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.298 seconds (process running for 5.948)
+2023-04-28T14:26:24.551+02:00  INFO 2240 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 2240 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:26:24.563+02:00  INFO 2240 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:26:27.831+02:00  INFO 2240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:26:27.861+02:00  INFO 2240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:26:27.862+02:00  INFO 2240 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:26:28.212+02:00  INFO 2240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:26:28.213+02:00  INFO 2240 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3494 ms
+2023-04-28T14:26:28.549+02:00  INFO 2240 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:26:29.060+02:00  INFO 2240 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:26:29.580+02:00  INFO 2240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:26:29.606+02:00  INFO 2240 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.184 seconds (process running for 6.814)
+2023-04-28T14:33:32.877+02:00  INFO 13736 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13736 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:33:32.885+02:00  INFO 13736 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:33:35.419+02:00  INFO 13736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:33:35.437+02:00  INFO 13736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:33:35.437+02:00  INFO 13736 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:33:35.687+02:00  INFO 13736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:33:35.688+02:00  INFO 13736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2630 ms
+2023-04-28T14:33:36.026+02:00  INFO 13736 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:33:36.426+02:00  INFO 13736 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:33:36.860+02:00  INFO 13736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:33:36.881+02:00  INFO 13736 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.36 seconds (process running for 6.349)
+2023-04-28T14:35:21.341+02:00  INFO 13736 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:35:21.344+02:00  INFO 13736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:35:21.347+02:00  INFO 13736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:35:22.491+02:00 ERROR 13736 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "formvalidation/formvalidation": The expression used for object selection is cv_employee, which is not valid: only variable expressions (${...}) are allowed in '{th:object,data-th-object}' attributes in Spring-enabled environments. (template: "formvalidation/formvalidation" - line 16, col 50)
 
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+org.thymeleaf.exceptions.TemplateProcessingException: The expression used for object selection is cv_employee, which is not valid: only variable expressions (${...}) are allowed in '{th:object,data-th-object}' attributes in Spring-enabled environments. (template: "formvalidation/formvalidation" - line 16, col 50)
+	at org.thymeleaf.spring6.processor.SpringObjectTagProcessor.validateSelectionValue(SpringObjectTagProcessor.java:68) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardTargetSelectionTagProcessor.doProcess(AbstractStandardTargetSelectionTagProcessor.java:63) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
@@ -236,11 +129,11 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2023-04-26T13:27:09.560+02:00 ERROR 9920 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)] with root cause
+2023-04-28T14:35:22.514+02:00 ERROR 13736 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateProcessingException: The expression used for object selection is cv_employee, which is not valid: only variable expressions (${...}) are allowed in '{th:object,data-th-object}' attributes in Spring-enabled environments. (template: "formvalidation/formvalidation" - line 16, col 50)] with root cause
 
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+org.thymeleaf.exceptions.TemplateProcessingException: The expression used for object selection is cv_employee, which is not valid: only variable expressions (${...}) are allowed in '{th:object,data-th-object}' attributes in Spring-enabled environments. (template: "formvalidation/formvalidation" - line 16, col 50)
+	at org.thymeleaf.spring6.processor.SpringObjectTagProcessor.validateSelectionValue(SpringObjectTagProcessor.java:68) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
+	at org.thymeleaf.standard.processor.AbstractStandardTargetSelectionTagProcessor.doProcess(AbstractStandardTargetSelectionTagProcessor.java:63) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
 	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
@@ -295,573 +188,291 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
 	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
-2023-04-26T13:28:14.122+02:00  INFO 13168 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13168 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:28:14.128+02:00  INFO 13168 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:28:16.572+02:00  INFO 13168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:28:16.592+02:00  INFO 13168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:28:16.593+02:00  INFO 13168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:28:16.855+02:00  INFO 13168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:28:16.856+02:00  INFO 13168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2585 ms
-2023-04-26T13:28:17.148+02:00  INFO 13168 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:28:17.973+02:00  INFO 13168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:28:17.991+02:00  INFO 13168 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.884 seconds (process running for 5.736)
-2023-04-26T13:28:21.885+02:00  INFO 13168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:28:21.887+02:00  INFO 13168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:28:21.890+02:00  INFO 13168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:32:28.552+02:00  INFO 5356 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 5356 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:32:28.562+02:00  INFO 5356 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:32:31.042+02:00  INFO 5356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:32:31.065+02:00  INFO 5356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:32:31.066+02:00  INFO 5356 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:32:31.310+02:00  INFO 5356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:32:31.311+02:00  INFO 5356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2488 ms
-2023-04-26T13:32:31.544+02:00  INFO 5356 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:32:32.368+02:00  INFO 5356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:32:32.386+02:00  INFO 5356 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.349 seconds (process running for 5.961)
-2023-04-26T13:32:37.574+02:00  INFO 5356 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:32:37.578+02:00  INFO 5356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:32:37.582+02:00  INFO 5356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:32:38.218+02:00 ERROR 5356 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "thymeleaf6": Could not parse as expression: "${ele.productName" (template: "thymeleaf6" - line 21, col 13)
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "${ele.productName" (template: "thymeleaf6" - line 21, col 13)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:368) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:222) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:32:38.230+02:00 ERROR 5356 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "${ele.productName" (template: "thymeleaf6" - line 21, col 13)] with root cause
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "${ele.productName" (template: "thymeleaf6" - line 21, col 13)
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:282) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.Model.process(Model.java:290) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.processIterationModel(IteratedGatheringModelProcessable.java:368) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.IteratedGatheringModelProcessable.process(IteratedGatheringModelProcessable.java:222) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleCloseElement(ProcessorTemplateHandler.java:1640) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.CloseElementTag.beHandled(CloseElementTag.java:139) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:34:26.527+02:00  INFO 13200 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13200 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:34:26.534+02:00  INFO 13200 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:34:28.833+02:00  INFO 13200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:34:28.854+02:00  INFO 13200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:34:28.855+02:00  INFO 13200 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:34:29.078+02:00  INFO 13200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:34:29.079+02:00  INFO 13200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2419 ms
-2023-04-26T13:34:29.348+02:00  INFO 13200 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:34:30.161+02:00  INFO 13200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:34:30.179+02:00  INFO 13200 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.629 seconds (process running for 5.252)
-2023-04-26T13:34:41.557+02:00  INFO 13200 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:34:41.558+02:00  INFO 13200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:34:41.559+02:00  INFO 13200 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-04-26T13:34:42.192+02:00 ERROR 13200 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "thymeleaf6": Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:34:42.204+02:00 ERROR 13200 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)] with root cause
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 19, col 9)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:36:36.077+02:00  INFO 12268 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 12268 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:36:36.087+02:00  INFO 12268 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:36:38.591+02:00  INFO 12268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:36:38.615+02:00  INFO 12268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:36:38.615+02:00  INFO 12268 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:36:38.860+02:00  INFO 12268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:36:38.861+02:00  INFO 12268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2652 ms
-2023-04-26T13:36:39.093+02:00  INFO 12268 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:36:39.825+02:00  INFO 12268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:36:39.843+02:00  INFO 12268 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.803 seconds (process running for 5.423)
-2023-04-26T13:36:43.611+02:00  INFO 12268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:36:43.612+02:00  INFO 12268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:36:43.613+02:00  INFO 12268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-04-26T13:36:44.201+02:00 ERROR 12268 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "thymeleaf6": Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:36:44.210+02:00 ERROR 12268 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)] with root cause
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:36:45.504+02:00 ERROR 12268 --- [http-nio-8080-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-2] Exception processing template "thymeleaf6": Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:36:45.509+02:00 ERROR 12268 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)] with root cause
-
-org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as each: "${productList}" (template: "thymeleaf6" - line 20, col 10)
-	at org.thymeleaf.standard.expression.EachUtils.parseEach(EachUtils.java:68) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:59) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.1.RELEASE.jar:3.1.1.RELEASE]
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1415) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1159) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1098) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.8.jar:6.0.8]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.8.jar:6.0.8]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
-	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
-
-2023-04-26T13:37:39.633+02:00  INFO 12872 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 12872 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:37:39.640+02:00  INFO 12872 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:37:43.071+02:00  INFO 12872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:37:43.086+02:00  INFO 12872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:37:43.087+02:00  INFO 12872 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:37:43.364+02:00  INFO 12872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:37:43.365+02:00  INFO 12872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3600 ms
-2023-04-26T13:37:43.659+02:00  INFO 12872 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:37:44.539+02:00  INFO 12872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:37:44.556+02:00  INFO 12872 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.904 seconds (process running for 6.509)
-2023-04-26T13:37:46.185+02:00  INFO 12872 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:37:46.186+02:00  INFO 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:37:46.188+02:00  INFO 12872 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-04-26T13:42:16.372+02:00  INFO 10172 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 10172 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
-2023-04-26T13:42:16.384+02:00  INFO 10172 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
-2023-04-26T13:42:19.225+02:00  INFO 10172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-04-26T13:42:19.259+02:00  INFO 10172 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-04-26T13:42:19.259+02:00  INFO 10172 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26T13:42:19.555+02:00  INFO 10172 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-04-26T13:42:19.557+02:00  INFO 10172 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3025 ms
-2023-04-26T13:42:19.835+02:00  INFO 10172 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
-2023-04-26T13:42:20.714+02:00  INFO 10172 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-26T13:42:20.734+02:00  INFO 10172 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.541 seconds (process running for 6.831)
-2023-04-26T13:42:28.012+02:00  INFO 10172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26T13:42:28.013+02:00  INFO 10172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-04-26T13:42:28.018+02:00  INFO 10172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-04-28T14:38:40.113+02:00  INFO 14284 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 14284 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:38:40.121+02:00  INFO 14284 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:38:42.866+02:00  INFO 14284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:38:42.907+02:00  INFO 14284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:38:42.911+02:00  INFO 14284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:38:43.222+02:00  INFO 14284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:38:43.223+02:00  INFO 14284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2931 ms
+2023-04-28T14:38:43.524+02:00  INFO 14284 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:38:44.074+02:00  INFO 14284 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:38:44.607+02:00  INFO 14284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:38:44.628+02:00  INFO 14284 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.692 seconds (process running for 6.424)
+2023-04-28T14:38:50.171+02:00  INFO 14284 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:38:50.172+02:00  INFO 14284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:38:50.180+02:00  INFO 14284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:39:52.481+02:00  INFO 5972 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 5972 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:39:52.490+02:00  INFO 5972 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:39:55.367+02:00  INFO 5972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:39:55.392+02:00  INFO 5972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:39:55.393+02:00  INFO 5972 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:39:55.635+02:00  INFO 5972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:39:55.637+02:00  INFO 5972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2927 ms
+2023-04-28T14:39:55.886+02:00  INFO 5972 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:39:56.304+02:00  INFO 5972 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:39:56.710+02:00  INFO 5972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:39:56.727+02:00  INFO 5972 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.396 seconds (process running for 6.0)
+2023-04-28T14:39:58.957+02:00  INFO 5972 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:39:58.958+02:00  INFO 5972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:39:58.961+02:00  INFO 5972 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28T14:40:36.488+02:00  INFO 3656 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 3656 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:40:36.496+02:00  INFO 3656 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:40:39.083+02:00  INFO 3656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:40:39.119+02:00  INFO 3656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:40:39.120+02:00  INFO 3656 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:40:39.481+02:00  INFO 3656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:40:39.483+02:00  INFO 3656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2837 ms
+2023-04-28T14:40:39.761+02:00  INFO 3656 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:40:40.245+02:00  INFO 3656 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:40:40.700+02:00  INFO 3656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:40:40.730+02:00  INFO 3656 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.51 seconds (process running for 6.284)
+2023-04-28T14:40:42.000+02:00  INFO 3656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:40:42.000+02:00  INFO 3656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:40:42.002+02:00  INFO 3656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:43:25.034+02:00  INFO 14448 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 14448 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:43:25.041+02:00  INFO 14448 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:43:27.468+02:00  INFO 14448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:43:27.493+02:00  INFO 14448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:43:27.494+02:00  INFO 14448 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:43:27.727+02:00  INFO 14448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:43:27.728+02:00  INFO 14448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2548 ms
+2023-04-28T14:43:28.002+02:00  INFO 14448 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:43:28.390+02:00  INFO 14448 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:43:28.747+02:00  INFO 14448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:43:28.762+02:00  INFO 14448 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.737 seconds (process running for 5.312)
+2023-04-28T14:43:35.359+02:00  INFO 14448 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:43:35.361+02:00  INFO 14448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:43:35.364+02:00  INFO 14448 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:44:39.983+02:00  INFO 2004 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 2004 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:44:40.000+02:00  INFO 2004 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:44:42.540+02:00  INFO 2004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:44:42.566+02:00  INFO 2004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:44:42.567+02:00  INFO 2004 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:44:42.822+02:00  INFO 2004 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:44:42.823+02:00  INFO 2004 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2688 ms
+2023-04-28T14:44:43.122+02:00  INFO 2004 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:44:43.517+02:00  INFO 2004 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:44:43.985+02:00  INFO 2004 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:44:44.010+02:00  INFO 2004 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.039 seconds (process running for 5.822)
+2023-04-28T14:44:46.658+02:00  INFO 2004 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:44:46.659+02:00  INFO 2004 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:44:46.661+02:00  INFO 2004 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:45:19.780+02:00  INFO 11488 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 11488 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:45:19.802+02:00  INFO 11488 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:45:22.783+02:00  INFO 11488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:45:22.806+02:00  INFO 11488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:45:22.808+02:00  INFO 11488 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:45:23.040+02:00  INFO 11488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:45:23.041+02:00  INFO 11488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3121 ms
+2023-04-28T14:45:23.297+02:00  INFO 11488 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:45:23.720+02:00  INFO 11488 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:45:24.127+02:00  INFO 11488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:45:24.155+02:00  INFO 11488 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.387 seconds (process running for 6.027)
+2023-04-28T14:45:24.356+02:00  INFO 11488 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:45:24.357+02:00  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:45:24.359+02:00  INFO 11488 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28T14:45:50.961+02:00  INFO 8372 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 8372 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:45:50.969+02:00  INFO 8372 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:45:54.364+02:00  INFO 8372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:45:54.396+02:00  INFO 8372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:45:54.397+02:00  INFO 8372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:45:54.718+02:00  INFO 8372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:45:54.720+02:00  INFO 8372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3587 ms
+2023-04-28T14:45:55.038+02:00  INFO 8372 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:45:55.512+02:00  INFO 8372 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:45:55.993+02:00  INFO 8372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:45:56.016+02:00  INFO 8372 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.199 seconds (process running for 6.828)
+2023-04-28T14:45:56.287+02:00  INFO 8372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:45:56.288+02:00  INFO 8372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:45:56.292+02:00  INFO 8372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:46:15.801+02:00  INFO 11608 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 11608 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:46:15.812+02:00  INFO 11608 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:46:18.252+02:00  INFO 11608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:46:18.283+02:00  INFO 11608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:46:18.284+02:00  INFO 11608 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:46:18.532+02:00  INFO 11608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:46:18.533+02:00  INFO 11608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2555 ms
+2023-04-28T14:46:18.778+02:00  INFO 11608 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:46:19.163+02:00  INFO 11608 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:46:19.504+02:00  INFO 11608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:46:19.523+02:00  INFO 11608 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.857 seconds (process running for 5.477)
+2023-04-28T14:46:20.514+02:00  INFO 11608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:46:20.515+02:00  INFO 11608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:46:20.517+02:00  INFO 11608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:50:21.454+02:00  INFO 11460 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 11460 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:50:21.461+02:00  INFO 11460 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:50:24.696+02:00  INFO 11460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:50:24.727+02:00  INFO 11460 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:50:24.728+02:00  INFO 11460 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:50:25.122+02:00  INFO 11460 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:50:25.135+02:00  INFO 11460 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3508 ms
+2023-04-28T14:50:25.493+02:00  INFO 11460 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:50:26.270+02:00  INFO 11460 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:50:26.913+02:00  INFO 11460 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:50:26.940+02:00  INFO 11460 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.854 seconds (process running for 7.747)
+2023-04-28T14:50:27.960+02:00  INFO 11460 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:50:27.961+02:00  INFO 11460 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:50:27.963+02:00  INFO 11460 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T14:51:08.395+02:00  INFO 11460 --- [http-nio-8080-exec-2] c.r.controller.FormController            : Success EmployeeDto(employeeId=null, employeeNameSurname=Recep, employeeEmail=recep@gmail.com, employeePassword=reýagsadfg)
+2023-04-28T14:56:55.254+02:00  INFO 14680 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 14680 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T14:56:55.262+02:00  INFO 14680 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T14:56:58.192+02:00  INFO 14680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T14:56:58.220+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T14:56:58.221+02:00  INFO 14680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T14:56:58.508+02:00  INFO 14680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T14:56:58.510+02:00  INFO 14680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3078 ms
+2023-04-28T14:56:58.852+02:00  INFO 14680 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T14:56:59.847+02:00  INFO 14680 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T14:57:00.746+02:00  INFO 14680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T14:57:00.772+02:00  INFO 14680 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 6.681 seconds (process running for 7.408)
+2023-04-28T14:57:01.829+02:00  INFO 14680 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T14:57:01.830+02:00  INFO 14680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T14:57:01.837+02:00  INFO 14680 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-28T15:04:17.329+02:00  INFO 11648 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 11648 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:04:17.337+02:00  INFO 11648 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:04:19.661+02:00  INFO 11648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:04:19.686+02:00  INFO 11648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:04:19.687+02:00  INFO 11648 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:04:19.907+02:00  INFO 11648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:04:19.909+02:00  INFO 11648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2457 ms
+2023-04-28T15:04:20.179+02:00  INFO 11648 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:04:20.574+02:00  INFO 11648 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:04:20.953+02:00  INFO 11648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:04:20.971+02:00  INFO 11648 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.681 seconds (process running for 5.513)
+2023-04-28T15:04:24.970+02:00  INFO 11648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:04:24.970+02:00  INFO 11648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:04:24.973+02:00  INFO 11648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28T15:05:25.334+02:00  INFO 12012 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 12012 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:05:25.343+02:00  INFO 12012 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:05:28.156+02:00  INFO 12012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:05:28.176+02:00  INFO 12012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:05:28.177+02:00  INFO 12012 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:05:28.421+02:00  INFO 12012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:05:28.423+02:00  INFO 12012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2961 ms
+2023-04-28T15:05:28.647+02:00  INFO 12012 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:05:29.028+02:00  INFO 12012 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:05:29.377+02:00  INFO 12012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:05:29.396+02:00  INFO 12012 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.188 seconds (process running for 5.857)
+2023-04-28T15:05:45.339+02:00  INFO 12012 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:05:45.340+02:00  INFO 12012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:05:45.346+02:00  INFO 12012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-04-28T15:05:56.912+02:00  INFO 12012 --- [http-nio-8080-exec-3] c.r.controller.FormController            : Success EmployeeDto(employeeId=null, employeeNameSurname=0, employeeEmail=etgte, employeePassword=gw)
+2023-04-28T15:06:44.751+02:00  INFO 14720 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 14720 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:06:44.758+02:00  INFO 14720 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:06:47.441+02:00  INFO 14720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:06:47.466+02:00  INFO 14720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:06:47.467+02:00  INFO 14720 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:06:47.708+02:00  INFO 14720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:06:47.709+02:00  INFO 14720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2737 ms
+2023-04-28T15:06:47.956+02:00  INFO 14720 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:06:48.379+02:00  INFO 14720 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:06:48.939+02:00  INFO 14720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:06:48.956+02:00  INFO 14720 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.461 seconds (process running for 6.248)
+2023-04-28T15:06:52.396+02:00  INFO 14720 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:06:52.396+02:00  INFO 14720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:06:52.398+02:00  INFO 14720 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T15:07:04.508+02:00  INFO 14720 --- [http-nio-8080-exec-3] c.r.controller.FormController            : Success EmployeeDto(employeeId=null, employeeNameSurname=hj, employeeEmail=khj, employeePassword=kh)
+2023-04-28T15:08:34.193+02:00  INFO 11696 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 11696 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:08:34.211+02:00  INFO 11696 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:08:36.542+02:00  INFO 11696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:08:36.569+02:00  INFO 11696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:08:36.570+02:00  INFO 11696 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:08:36.831+02:00  INFO 11696 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:08:36.833+02:00  INFO 11696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2492 ms
+2023-04-28T15:08:37.130+02:00  INFO 11696 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:08:37.552+02:00  INFO 11696 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:08:37.913+02:00  INFO 11696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:08:37.935+02:00  INFO 11696 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.765 seconds (process running for 5.563)
+2023-04-28T15:08:48.188+02:00  INFO 11696 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:08:48.192+02:00  INFO 11696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:08:48.194+02:00  INFO 11696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T15:12:17.539+02:00  INFO 13776 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 13776 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:12:17.547+02:00  INFO 13776 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:12:20.245+02:00  INFO 13776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:12:20.270+02:00  INFO 13776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:12:20.271+02:00  INFO 13776 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:12:20.530+02:00  INFO 13776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:12:20.531+02:00  INFO 13776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2845 ms
+2023-04-28T15:12:20.812+02:00  INFO 13776 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:12:21.237+02:00  INFO 13776 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:12:21.626+02:00  INFO 13776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:12:21.645+02:00  INFO 13776 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.237 seconds (process running for 5.926)
+2023-04-28T15:12:40.342+02:00  INFO 13776 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:12:40.343+02:00  INFO 13776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:12:40.346+02:00  INFO 13776 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T15:16:28.287+02:00  INFO 5984 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 5984 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:16:28.295+02:00  INFO 5984 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:16:31.016+02:00  INFO 5984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:16:31.036+02:00  INFO 5984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:16:31.036+02:00  INFO 5984 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:16:31.271+02:00  INFO 5984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:16:31.272+02:00  INFO 5984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2754 ms
+2023-04-28T15:16:31.547+02:00  INFO 5984 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:16:31.910+02:00  INFO 5984 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:16:32.306+02:00  INFO 5984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:16:32.321+02:00  INFO 5984 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.688 seconds (process running for 6.381)
+2023-04-28T15:17:34.613+02:00  INFO 5984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:17:34.617+02:00  INFO 5984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:17:34.619+02:00  INFO 5984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T15:17:34.728+02:00  INFO 5984 --- [http-nio-8080-exec-1] c.r.controller.FormController            : Success !EmployeeDto(employeeId=null, employeeNameSurname=recp, employeeEmail=receo@gmail.com, employeePassword=12)
+2023-04-28T15:20:28.614+02:00  INFO 15208 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 15208 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:20:28.633+02:00  INFO 15208 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:20:30.929+02:00  INFO 15208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:20:30.947+02:00  INFO 15208 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:20:30.948+02:00  INFO 15208 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:20:31.190+02:00  INFO 15208 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:20:31.191+02:00  INFO 15208 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2447 ms
+2023-04-28T15:20:31.467+02:00  INFO 15208 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:20:31.904+02:00  INFO 15208 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:20:32.261+02:00  INFO 15208 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:20:32.280+02:00  INFO 15208 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.7 seconds (process running for 5.322)
+2023-04-28T15:20:39.298+02:00  INFO 15208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:20:39.300+02:00  INFO 15208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:20:39.303+02:00  INFO 15208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28T15:20:39.405+02:00  INFO 15208 --- [http-nio-8080-exec-1] c.r.controller.FormController            : Success !EmployeeDto(employeeId=null, employeeNameSurname=recp, employeeEmail=receo@gmail.com, employeePassword=12)
+2023-04-28T15:20:49.010+02:00  INFO 15208 --- [http-nio-8080-exec-3] c.r.controller.FormController            : Success !EmployeeDto(employeeId=null, employeeNameSurname=r, employeeEmail=fe, employeePassword=123)
+2023-04-28T15:23:50.205+02:00  INFO 10512 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 10512 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:23:50.213+02:00  INFO 10512 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:23:52.524+02:00  INFO 10512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:23:52.545+02:00  INFO 10512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:23:52.545+02:00  INFO 10512 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:23:52.778+02:00  INFO 10512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:23:52.779+02:00  INFO 10512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2425 ms
+2023-04-28T15:23:53.116+02:00  INFO 10512 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:23:53.587+02:00  INFO 10512 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:23:53.994+02:00  INFO 10512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:23:54.013+02:00  INFO 10512 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.829 seconds (process running for 5.483)
+2023-04-28T15:24:08.388+02:00  INFO 10512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:24:08.389+02:00  INFO 10512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:24:08.392+02:00  INFO 10512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-28T15:24:13.504+02:00  INFO 10512 --- [http-nio-8080-exec-2] c.r.controller.FormController            : Success !EmployeeDto(employeeId=null, employeeNameSurname=gfs, employeeEmail=gs, employeePassword=gs)
+2023-04-28T15:34:13.892+02:00  INFO 11692 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 11692 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:34:13.902+02:00  INFO 11692 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:34:16.211+02:00  INFO 11692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:34:16.234+02:00  INFO 11692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:34:16.235+02:00  INFO 11692 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:34:16.461+02:00  INFO 11692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:34:16.463+02:00  INFO 11692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2449 ms
+2023-04-28T15:34:16.741+02:00  INFO 11692 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:34:17.115+02:00  INFO 11692 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:34:17.481+02:00  INFO 11692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:34:17.499+02:00  INFO 11692 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 4.598 seconds (process running for 5.243)
+2023-04-28T15:34:28.646+02:00  INFO 11692 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:34:28.647+02:00  INFO 11692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:34:28.650+02:00  INFO 11692 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T15:35:01.750+02:00  INFO 8792 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Starting ThymeleafSpringFrameworkApplication using Java 17.0.5 with PID 8792 (C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework\build\classes\java\main started by RECEP KABAKCI in C:\Users\RECEP KABAKCI\IdeaProjects\ThymeleafSpringFramework)
+2023-04-28T15:35:01.758+02:00  INFO 8792 --- [main] c.r.ThymeleafSpringFrameworkApplication  : No active profile set, falling back to 1 default profile: "default"
+2023-04-28T15:35:04.456+02:00  INFO 8792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28T15:35:04.477+02:00  INFO 8792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28T15:35:04.478+02:00  INFO 8792 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-28T15:35:04.698+02:00  INFO 8792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28T15:35:04.699+02:00  INFO 8792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2789 ms
+2023-04-28T15:35:04.994+02:00  INFO 8792 --- [main] com.recepkabakci.dto.BeanDto             : I work before Bean starts
+2023-04-28T15:35:05.344+02:00  INFO 8792 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-04-28T15:35:05.694+02:00  INFO 8792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28T15:35:05.712+02:00  INFO 8792 --- [main] c.r.ThymeleafSpringFrameworkApplication  : Started ThymeleafSpringFrameworkApplication in 5.03 seconds (process running for 5.627)
+2023-04-28T15:35:13.221+02:00  INFO 8792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28T15:35:13.225+02:00  INFO 8792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28T15:35:13.227+02:00  INFO 8792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-28T15:35:18.474+02:00  INFO 8792 --- [http-nio-8080-exec-2] c.r.controller.FormController            : Success !EmployeeDto(employeeId=null, employeeNameSurname=fa, employeeEmail=fa, employeePassword=fa)
